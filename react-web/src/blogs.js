@@ -6,13 +6,13 @@ import bitcoin3 from './img/bitcoin3.jpg';
 const blogs = [
     {
         id: 1,
-        name: 'Lorem Ipsum',
+        name: 'Tharsis Soares',
         image: person,
         title: 'How to Sell Bitcoin'
     },
     {
         id: 2,
-        name: 'Jane Doe',
+        name: 'Caramelo Web',
         image: bitcoin,
         title: 'How to Sell Bitcoin'
     },
