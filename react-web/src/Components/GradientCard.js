@@ -24,6 +24,9 @@ function GradientCard({image, avatar, name, price, title, ctaButton}) {
                             <p><img src={time} alt="" />11:11</p>
                             <p><img src={heart} alt="" />333 likes</p>
                         </div>
+                        <div className="cta-btns">
+                            {ctaButton}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,6 +127,15 @@ const GradientCardStyled = styled.div`
                         }
                     }
                 }
+            }
+        }
+        .cta-btns{
+            width: 100%;
+            a{
+                margin: .6rem 0;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
             }
         }
     }
